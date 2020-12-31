@@ -61,7 +61,6 @@ body{
   width: 150px;
   background-color: rgba(220,220,220,0.5);
 }
-.form{
-  border-radius: 20px;
-  padding: 20px;
+.rounded{
+  border-radius: 25px;
 }
