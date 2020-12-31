@@ -56,7 +56,9 @@ body{
   .flex-md-equal > * {
     flex: 1;
   }
-
+.contact-us{
+  background-color: rgba(220,220,220,0.8);
+}
 #submit{
   width: 150px;
   background-color: rgba(220,220,220,0.5);
