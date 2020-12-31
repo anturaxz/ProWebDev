@@ -15,24 +15,7 @@
     <!-- Bootstrap core CSS -->
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
+ 
     <!-- Custom styles for this template -->
     <link href="product.css" rel="stylesheet">
   </head>
@@ -75,39 +58,63 @@
     </div>
   </div>
 
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div id="concept" class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 p-3">
         <h2 class="display-5">Sketch everywhere with anyone!</h2>
         <p class="lead">Be the first to sketch on the same picture with friends, family or random people and watch the awesome results come true</p>
       </div>
-      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      <div class="top mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
 
    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius:0 0 21px 21px;"></div>
+      <div class="bottom bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius:0 0 21px 21px;"></div>
       <div class="my-3 p-3">
         <h2 class="display-5">Be part of this coming revolution in sketching!</h2>
         <p class="lead">This is an exceptional oppurtunity to participate and watch the results unfold before your eyes.</p>
       </div>
     </div>
-
 </main>
 
-<footer class="container py-5 ">
-  <div class="row">
-    <div class="col-12 col-md">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-      <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+<footer class="container">
+ <div class="row">
+   <div class=" contact-us col-xs-7 col-sm-7 col-lg-7"> 
+      <h1>Contact Us</h1>
+       <hr width="200">
+      <p>Feel free to get in touch with us. We are always open for feedback or questions.</p>
+      <p><strong>Email: </strong>info@mail.com</p>
+      <p><strong>Phone: </strong>+32 123 456 789</p>
+      <hr width="200">
     </div>
-    <div id="contact">
-      <!-- Contact page here -->
-      <H3>Here comes all the contact information to be filled in</H3>
+    <div class="col-xs-6 col-sm-5 col-lg-5" >
+      <form>
+      <div class="mb-3">
+      <label for="fname" class="form-label">First name</label>
+      <input type="text" class="form-control" id="fname" placeholder="First name">
+      </div>
+      <div class="mb-3">
+      <label for="lname" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="lname" placeholder="Last name">
+      </div>
+      <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+      <label for="question" class="form-label">Ask your question here:</label>
+      <textarea class="form-control" id="question" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+      <input type="submit" class="form-control" id="submit" onclick="alert('Thank you for your feedback!')">
+      </div>
+      </form>
     </div>
   </div>
+    <div class="col-5 col-md"> 
+      <span style="font-size: 35px">Sketch@</span><span>&copy;</span>
+      <small class="d-block mb-3 text-muted">2020-2021</small>
+    </div>
 </footer>
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
       
   </body>
 </html>
