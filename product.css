@@ -56,11 +56,3 @@ body{
   .flex-md-equal > * {
     flex: 1;
   }
-
-#submit{
-  width: 150px;
-  background-color: rgba(220,220,220,0.5);
-}
-.round-form{
-  border-radius: 25px;
-}
